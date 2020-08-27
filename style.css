@@ -103,7 +103,7 @@ input {
   align-items: center;
   margin-right: 60px;
 }
-.link {
+a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -117,14 +117,22 @@ input {
   width: 300px;
   height: 44px;
   text-align: center;
-}
-.button {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   background: #10182f;
+  margin-bottom: 56.25px;
+  margin-top: 30px;
+}
+footer {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #10182f;
 }
 .description {
   display: flex;
@@ -134,6 +142,7 @@ input {
   width: 18px;
   height: 18px;
   margin-right: 21px;
+  border: #306bf3;
 }
 #description h1 {
   font-style: normal;
